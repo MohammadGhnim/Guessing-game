@@ -52,3 +52,32 @@ names_count(['alex', 'anna', 'emma'])
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+def divided_by(x,y):
+    result = []
+    for n in range(1, 101):
+        if n%x == 0 and n%y == 0:
+            result.append(n)
+
+            
+    print(result)
+
+
+
+
+divided_by(5,6)
+
+
+
+
