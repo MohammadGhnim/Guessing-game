@@ -35,3 +35,20 @@ def no_duplicate(sentence):
 
 
 no_duplicate('my name is is is alex')
+
+
+
+
+
+
+
+def names_count(names):
+    count = []
+    for n in names:
+        count.append(len(n))
+    print(count)
+
+names_count(['alex', 'anna', 'emma'])
+
+
+
